@@ -88,6 +88,7 @@ ul {
     align-items: center;
     justify-items: center;
     width: 100%;
+    margin-bottom: 2rem;
 }
 
 .index {
@@ -138,16 +139,15 @@ h3 {
     height: auto;
     padding: 0.5em;
 }
-/* Source: W3Schools */
+/* Source: W3Schools: https: //www.w3schools.com/w3css/4/w3.css */
 .nav-button {
     border: none;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 10px 16px;
     vertical-align: middle;
     overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
+    color: #fff;
+    background-color: #991c41;
     text-align: center;
     cursor: pointer;
     white-space: nowrap
@@ -166,12 +166,7 @@ h3 {
     right: 0%;
     transform: translate(0%, -50%);
 }
-
-.nav-black {
-    color: #fff !important;
-    background-color: #000 !important
-}
-
+/* End Source: W3Schools */
 
 @media screen and (min-width: 800px) {
     nav ul {
@@ -253,6 +248,7 @@ h3 {
     }
 
     h2 {
+        justify-items: center;
         margin-top: 5%;
     }
 
@@ -310,6 +306,7 @@ h3 {
     .travel-about p{
         margin-left: 3%;
         margin-right: 3%;
+        margin-top: 3%;
         grid-column: 1/-1;
     }
 
@@ -325,6 +322,16 @@ h3 {
     }
     .recipe-desktop {
         display: none;
+    }
+    .center-travel-image-hawaii,
+    .center-travel-image-shanghai,
+    .center-travel-image-vermont {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        margin-bottom: 1.5rem;
     }
 }
 
