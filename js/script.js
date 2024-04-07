@@ -1,3 +1,4 @@
+//Credits to W3Schools
 // Separate Gallery for Hawaii
 var slideIndexHawaii = 1;
 showDivsHawaii(slideIndexHawaii);
